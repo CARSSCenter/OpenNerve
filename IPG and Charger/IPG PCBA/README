@@ -1,1 +1,6 @@
+# Overview
 
+This folder contains source files and information around the Printed Circuit Board contained inside the Implantable Pulse Generator (IPG). This PCB was designed for CARSS by Medipace Inc. (https://www.medipaceinc.com/). Editable source files, generated using Altium, can be found in the Source Files folder.
+
+# Design
+The purpose of this PCBA is multi-fold: to provide bidirectional data transmission with an external device via Bluetooth; to wirelessly charge the battery cells of the IPG; to provide current-based neuromodulation to leads; to monitor impedance on those leads; to interface with texttexttext [ALEX UPDATE THIS TOMORROW!]
