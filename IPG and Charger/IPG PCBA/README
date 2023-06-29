@@ -23,6 +23,7 @@ A magnetic sensor BD020 (U8) and supporting circutry disconnects the battery fro
 [Speculation - ask Victor!]
 
 ## MCU
+Digital processing is accomplished by an STM32U585 MCU (U17) microcontroller. This MCU is connected via SPI to an external FRAM unit CY15B108QN (U9) which adds 8MB of RAM to the system.
 
 ## Stimulation
 
@@ -31,6 +32,7 @@ A magnetic sensor BD020 (U8) and supporting circutry disconnects the battery fro
 ## ECG and EGG Sensing
 
 ## Bluetooth Low Energy (BLE)
+BLE communication uses a secondary dedicated NRF52810 MCU (U91) which communicates with the main MCU through a UART interface. The NRF chip outputs to a 50 Ohm controlled impedance trace which should be connected to an antenna built in to the enclosure.
 
 
 
