@@ -26,11 +26,10 @@ A magnetic sensor BD020 (U8) and supporting circutry disconnects the battery fro
 Digital processing is accomplished by an STM32U585 MCU (U17) microcontroller. This MCU is connected via SPI to an external FRAM unit CY15B108QN (U9) which adds 8MB of RAM to the system.
 
 ## Stimulation
-Current based stimulation is achieved by first generating an analog voltage between 0 and 3.3V using a DAC80502 digital to analog converter (U301). This voltage is fed in to an op amp based current source which converts it to a produces a current I = V_DAC / 1k with a heardroom of 3.3V. Afterwards, this current is fed into one or more of the four stimulation channels, which multiplies the current by a factor of 25 using a current mirror and reaises the voltage headroom to  
-
-Wait what the hell? Is this board using monophasic anodic stim?
+Current based stimulation is achieved by first generating an analog voltage between 0 and 3.3V using a DAC80502 digital to analog converter (U301). This voltage is fed in to an op amp based current source which converts it to a produces a current I = V_DAC / 1k with a heardroom of 3.3V. Afterwards, this current is fed into one or more of the four stimulation channels, which multiplies the current by a factor of 25 using a current mirror and reaises the voltage headroom to a value set by potentiometer U13. 
 
 ## Impedance Sensing
+
 
 ## ECG and EGG Sensing
 
