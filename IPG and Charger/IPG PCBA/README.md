@@ -35,7 +35,6 @@ Digital processing is accomplished by an STM32U585 MCU (U17) microcontroller. Th
 BLE communication uses a secondary dedicated NRF52810 MCU (U91) which communicates with the main MCU through a UART interface. The NRF chip outputs to a 50 Ohm controlled impedance trace which should be connected to an antenna built in to the enclosure.
 
 
-
 # Status and updates
 ## 29 June 2023
 The first revision of the PCBA has been taped out and assembled; testing is expected to be finished by the end of 2023.
