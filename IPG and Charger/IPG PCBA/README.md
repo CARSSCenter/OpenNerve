@@ -26,6 +26,9 @@ A magnetic sensor BD020 (U8) and supporting circutry disconnects the battery fro
 Digital processing is accomplished by an STM32U585 MCU (U17) microcontroller. This MCU is connected via SPI to an external FRAM unit CY15B108QN (U9) which adds 8MB of RAM to the system.
 
 ## Stimulation
+Current based stimulation is achieved by first generating an analog voltage between 0 and 3.3V using a DAC80502 digital to analog converter (U301). This voltage is fed in to an op amp based current source which converts it to a produces a current I = V_DAC / 1k with a heardroom of 3.3V. Afterwards, this current is fed into one or more of the four stimulation channels, which multiplies the current by a factor of 25 using a current mirror and reaises the voltage headroom to  
+
+Wait what the hell? Is this board using monophasic anodic stim?
 
 ## Impedance Sensing
 
@@ -38,4 +41,5 @@ BLE communication uses a secondary dedicated NRF52810 MCU (U91) which communicat
 # Status and updates
 ## 29 June 2023
 The first revision of the PCBA has been taped out and assembled; testing is expected to be finished by the end of 2023.
-![Photograph of a test PCBA](/images/Test Board rev1.jpg)
+![Test Board rev1](https://github.com/CARSSCenter/Device/assets/124087207/5d264da4-7320-4ac3-8b8e-37be243782f6)
+
