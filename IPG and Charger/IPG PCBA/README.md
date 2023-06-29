@@ -29,9 +29,10 @@ Digital processing is accomplished by an STM32U585 MCU (U17) microcontroller. Th
 Current based stimulation is achieved by first generating an analog voltage between 0 and 3.3V using a DAC80502 digital to analog converter (U301). This voltage is fed in to an op amp based current source which converts it to a produces a current I = V_DAC / 1k with a heardroom of 3.3V. Afterwards, this current is fed into one or more of the four stimulation channels, which multiplies the current by a factor of 25 using a current mirror and reaises the voltage headroom to a value set by potentiometer U13. 
 
 ## Impedance Sensing
-
+Impedance measurement is accomplished by first sending the voltage produced by stimulation through a 10M / 2M voltage divider, then through a mux and buffer before being shown to ADC pins on the MCU. The inputs to the diff amp can be either one of the four stimulation electrodes or the enclosure ground. 
 
 ## ECG and EGG Sensing
+Sensing ECG or EEG signal is achieved using a second mux to attach one of the electrodes to one of two AD8233 biopotential filter / amplifiers, tuned to different bandwidths most appropriate for the signal under consideration.
 
 ## Bluetooth Low Energy (BLE)
 BLE communication uses a secondary dedicated NRF52810 MCU (U91) which communicates with the main MCU through a UART interface. The NRF chip outputs to a 50 Ohm controlled impedance trace which should be connected to an antenna built in to the enclosure.
