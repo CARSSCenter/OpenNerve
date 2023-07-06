@@ -1,0 +1,1 @@
+The CARSS Center is developing a standard set of stimulation and recording leads based on clinically proven designs. These leads include sensing leads for ECG, EMG, and motion, a bipolar nerve cuff for the vagus nerve, and a linear lead for the sacral nerve. Lead design, manufacturing, and testing is performed by [Med-Ally LLC](https://med-ally.com/).
