@@ -1,0 +1,2 @@
+The Parylene C cuff electrode is designed for branch nerves less than 1mm in diameter. Design, fabrication, and testing are performed at USC at the [Biomedical Microsystems Laboratory](http://biomems.usc.edu/) of Dr. Ellis Meng.
+Please see the associated wiki pages for the [fabrication protocol](https://github.com/CARSSCenter/Admin/wiki/Thin-Film-Fabrication-Protocol---Branch-Nerve-Cuff) and [thermoforming / inspection protocol](https://github.com/CARSSCenter/Admin/wiki/Thermoforming,-Assembly,-and-Inspection-Protocol).
