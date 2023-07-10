@@ -9,5 +9,6 @@ The purpose of this PCBA is to regulate power, communication, neuromodulation, a
 # Status and updates
 ## 29 June 2023
 The first revision of the PCBA has been taped out and assembled; testing is expected to be finished by the end of 2023.
+
 ![Test Board rev1](https://github.com/CARSSCenter/Device/assets/124087207/5d264da4-7320-4ac3-8b8e-37be243782f6)
 
