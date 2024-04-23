@@ -1,0 +1,28 @@
+{
+  "electrodes": [
+    {
+      "name": "B3-Large"
+      "version": "1.0.0"
+      "sldprt": "Parylene Cuff Electrode/Design/SLDPRT Files/B3- Large.SLDPRT"
+      "step": "Parylene Cuff Electrode/Design/STEP Files/B3- Large.STEP"
+    }, {
+      
+      "name": "B3-Small"
+      "version": "1.0.0"
+      "sldprt": "Parylene Cuff Electrode/Design/SLDPRT Files/B3- Small.SLDPRT"
+      "step": "Parylene Cuff Electrode/Design/STEP Files/B3- Small.STEP"
+    }, {
+      
+      "name": "E3-Large"
+      "version": "1.0.0"
+      "sldprt": "Parylene Cuff Electrode/Design/SLDPRT Files/E3- Large.SLDPRT"
+      "step": "Parylene Cuff Electrode/Design/STEP Files/E3- Large.STEP"
+    }, {
+      
+      "name": "E3-Small"
+      "version": "1.0.0"
+      "sldprt": "Parylene Cuff Electrode/Design/SLDPRT Files/E3- Small.SLDPRT"
+      "step": "Parylene Cuff Electrode/Design/STEP Files/E3- Small.STEP"
+    }
+  ]
+}
