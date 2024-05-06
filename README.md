@@ -2,7 +2,20 @@
 This repository contains all files relevant to the design and manufacture of the CARSS OpenNerve Platform. For more information about the CARSS Center, visit our [website](https://sites.usc.edu/carss/). Documentation, explanations of files, and protocols for fabrication, testing, and inspection can be found in the associated [wiki](https://github.com/CARSSCenter/Admin/wiki).
 
 # License
-Unless otherwise specified, all information and documents found in this repository are licensed under the Creative Commons CC-BY-NC-4.0 license. The full text can be found in the accompanying license file or at Creative Commons [here.](https://creativecommons.org/licenses/by-nc/4.0/)
+Unless otherwise specified, all information and documents found in this repository are licensed under the Creative Commons CC-BY-4.0 license.
+
+Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+
+
 
 # Disclaimer
 The information included in this presentation is preliminary and subject to revision upon completion of the program.  No representation or warranty, express or implied, is provided in relation to the accuracy, correctness, completeness, or reliability of the information, opinions, or conclusions expressed herein. 
