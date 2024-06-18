@@ -1,2 +1,0 @@
-Physical sensors for strain and temperature are developed at USC under the direction of [Dr. Hangbo Zhao.](https://sites.usc.edu/zhaogroup/)
-More information and protocols for the [strain sensor](https://github.com/CARSSCenter/Admin/wiki/Capacitive-Strain-Sensors:-specifications,-encapsulation,-and-performance-on-the-benchtop) and [temperature sensor](https://github.com/CARSSCenter/Admin/wiki/Temperature-Sensor-Fabrication-Protocol) can be found at their associated wiki pages.
