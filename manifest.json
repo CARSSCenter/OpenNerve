@@ -1,28 +1,16 @@
 {
   "paryleneElectrodes": [
     {
-      "name": "B3-Large"
+      "name": "Full-Large"
       "version": "1.0.0"
-      "sldprt": "Parylene Cuff Electrode/Design/SLDPRT Files/B3- Large.SLDPRT"
-      "step": "Parylene Cuff Electrode/Design/STEP Files/B3- Large.STEP"
+      "sldprt": "Parylene Cuff Electrode/Design/SLDPRT Files/FullLarge.SLDPRT"
+      "step": "Parylene Cuff Electrode/Design/STEP Files/CuffModelFull_v2.STEP"
     }, {
       
-      "name": "B3-Small"
+      "name": "Helical-Larger"
       "version": "1.0.0"
-      "sldprt": "Parylene Cuff Electrode/Design/SLDPRT Files/B3- Small.SLDPRT"
-      "step": "Parylene Cuff Electrode/Design/STEP Files/B3- Small.STEP"
-    }, {
-      
-      "name": "E3-Large"
-      "version": "1.0.0"
-      "sldprt": "Parylene Cuff Electrode/Design/SLDPRT Files/E3- Large.SLDPRT"
-      "step": "Parylene Cuff Electrode/Design/STEP Files/E3- Large.STEP"
-    }, {
-      
-      "name": "E3-Small"
-      "version": "1.0.0"
-      "sldprt": "Parylene Cuff Electrode/Design/SLDPRT Files/E3- Small.SLDPRT"
-      "step": "Parylene Cuff Electrode/Design/STEP Files/E3- Small.STEP"
+      "sldprt": "Parylene Cuff Electrode/Design/SLDPRT Files/HelicalLarge.SLDPRT"
+      "step": "Parylene Cuff Electrode/Design/STEP Files/CuffModelHelical_v2.STEP"
     }
   ]
 }
